@@ -17,3 +17,6 @@ line character after each triplet of numbers. Example of text notation of the gr
 2 5 255<br />
 3 4 20001<br />
 4 5 9<br />
+# Implementation of the problem
+I used separate structure for edge and graph. Edge structure contains information about two vertices that make this edge and about cost. The graph structure 
+contains array of pointers to edges, size and capacity of graph that is dynamically allocated
